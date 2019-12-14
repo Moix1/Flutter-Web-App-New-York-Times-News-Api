@@ -1,16 +1,31 @@
 # fweb
 
-A new Flutter project.
+Flutter web app api of New your times for fetching articles.
 
-## Getting Started
+## Note Please
+You must have to change API Key from lib/services/api_service.dart on line# 7, you will see <br>
 
-This project is a starting point for a Flutter application.
+> static const String API_KEY = 'Paste Your API Key Here';
 
-A few resources to get you started if this is your first Flutter project:
+----------------------------------------------------------
+# How to get New York Times API of news
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Follow these steps:
+```
+- Go to https://developer.nytimes.com/
+- Create Account and confirm your account
+- Login with your credentials
+- Now you can see your email at top right side corner, click on it you will see Apps
+- Click on Apps
+- Inside Apps Click on New App
+- Give any name your app and scroll down to enable <strong>Top Stories API</strong>
+- Scroll top and click on Create button
+- Now you can see your app with active status just copy your key which is under <strong>API Keys</strong>
+- Copy and paste same key inside this line => const String API_KEY = 'Paste Your API Key Here';
+- Done
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+
+If you need any kind help just open issue i will be helping you!
+
+
