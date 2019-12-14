@@ -18,9 +18,9 @@ Follow these steps:
 - Now you can see your email at top right side corner, click on it you will see Apps
 - Click on Apps
 - Inside Apps Click on New App
-- Give any name your app and scroll down to enable <strong>Top Stories API</strong>
+- Give any name your app and scroll down to enable Top Stories API
 - Scroll top and click on Create button
-- Now you can see your app with active status just copy your key which is under <strong>API Keys</strong>
+- Now you can see your app with active status just copy your key which is under API Keys
 - Copy and paste same key inside this line => const String API_KEY = 'Paste Your API Key Here';
 - Done
 
