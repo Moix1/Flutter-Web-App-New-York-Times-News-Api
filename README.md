@@ -1,6 +1,6 @@
 # fweb
 
-Flutter web app api of New your times for fetching articles.
+Flutter web app api of New your times for fetching articles. Read about how to enable Flutter Web Channel https://flutter.dev/docs/get-started/web#requirements , It is necessary part.
 
 ## Note Please
 You must have to change API Key from lib/services/api_service.dart on line# 7, you will see <br>
