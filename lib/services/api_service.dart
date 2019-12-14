@@ -4,7 +4,7 @@ import 'package:fweb/models/article_model.dart';
 
 class APIService{
   final String _baseUrl = 'api.nytimes.com';
-  static const String API_KEY = 'SKAVGryondipnSg4wAjlYkMUAN4iCmDT';
+  static const String API_KEY = 'PASTE YOUR API KEY HERE';
 
   Future<List<Article>> fetchArticlesBySection(String section) async {
     Map<String, String> parameters = {
